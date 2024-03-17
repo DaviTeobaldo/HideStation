@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: Xbox;
-    src: url("X360.ttf");
+    src: url("../X360.ttf");
 }
 
 
@@ -50,7 +50,7 @@ body{
 .marca{
     height: 130vh;
     width: 100%;
-    background-image: url("Marca_xbox.png");
+    background-image: url("../img/Marca_xbox.png");
     display: flex;
     align-items: center;
     color: #fff;
@@ -172,11 +172,6 @@ footer p a{
     border-radius: 20px;
     padding: 10px;
     color:#fff;
-  
-    
-
-
-
 }
 
 .jogo{
