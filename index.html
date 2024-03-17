@@ -1,0 +1,408 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HideStation</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="estilo.css">
+  <link rel="icon" href="img/game-removebg-preview.png" type="image/x-icon">
+</head>
+
+<body>
+  <!-- As a link -->
+  <div class="começo">
+    <div class="futura_coluna">
+      <div class="marca">
+        <h1>HideStation</h1>
+        <img src="img/game-removebg-preview.png" alt="" class="logo" width="50px">
+      </div>
+
+      <div class="metade1">
+
+        <input type="text" placeholder="Pesquisar">
+        <button class="botao">Procurar</button>
+
+        <div class="help">
+
+          <div class="btn-group">
+            <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Precisa de Ajuda?
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">SAC</a></li>
+              <li><a class="dropdown-item" href="#">Mande nos um email</a></li>
+              <li><a class="dropdown-item" href="#">Postal</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Telefone</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+    <div class="metade2">
+
+      <div id="perfil">
+
+      <a href="html/signin.html">
+        <button class="button" href="html/signin.html">
+          <img src="img/purple-linear-outline-person-icon-user-vector-29003247-removebg-preview.png" alt="" class="perfil"
+            id="">
+          <p style="color:#fff" id="perfis" class="perfil-ajuda">Perfil</p>
+        </button>
+      </a>
+
+      </div>
+
+      <div id="compras">
+      <a href="html/carrinho.html">
+        <button class="button">
+          <img src="img/carro_compra.png" alt="" class="carrinho">
+          <p style="color:#fff" id="compra" class="perfil-ajuda">Comprar</p>
+        </button>
+      </a>
+      </div>
+
+    </div>
+
+  </div>
+  <div class="principais">
+
+    <hr class="border border-primary border-3  opacity-100" id="separador">
+
+    <div id="consoles">
+
+      <div id="imagem">
+
+      <a href="html/nintendo.html">
+        <button class="Nintendo">
+          <p>Nintendo</p>
+        </button>
+      </a>
+
+      </div>
+
+      <a href="html/playstation.html">
+        <button class="Playstation"> Playstation</button>
+      </a>
+
+      <a href="html/xbox.html">
+        <button class="Xbox">Xbox</button>
+      </a>
+
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div id="carouselExample" class="carousel slide col-md-6" style="margin-top: 3%; ">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="https://images.adsttc.com/adbr001cdn.archdaily.net/wp-content/uploads/2012/08/1344211347_50183e3428ba0d496700004a_livraria_da_vila_isay_weinfeld_img_8826_nk_.jpg?utm_medium=website&utm_source=archdaily.com.br"
+              class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://media.gazetadopovo.com.br/haus/2019/02/livraria-china-espelhada-shao-feng-reproducao-1-33046410.jpg"
+              class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://cptstatic.s3.amazonaws.com/imagens/enviadas/materias/materia28447/livraria-cpt.jpg"
+              class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="col-md-6" style="margin-top: 3%;">
+        <h2>Quem somos?</h2>
+        <p>HideStation é uma loja de jogos usados sediada no Japão, oferecendo uma variedade de produtos de
+          videogame de segunda mão. Com um amplo estoque que abrange consoles e jogos retro e modernos, a loja
+          atende a uma ampla gama de clientes. A qualidade dos produtos é garantida por meio de processos de
+          inspeção rigorosos. Os preços acessíveis dos jogos usados permitem aos clientes economizar sem
+          comprometer a experiência de jogo. A HideStation prioriza o atendimento ao cliente, oferecendo
+          suporte durante todo o processo de compra. Localizada no Japão, a loja pode oferecer títulos
+          exclusivos e edições especiais para os fãs de videogames. Em resumo, a HideStation é uma escolha
+          ideal para os aficionados por videogames que buscam adicionar à sua coleção ou encontrar títulos
+          específicos a preços acessíveis.
+
+        </p>
+      </div>
+    </div>
+
+    <h2 class="text-center" style="margin-top: 3%;">Destaques do Mês</h2>
+
+
+    <div class="row center" style="margin-top: 2%;" id="destaques">
+      <a href="html/desculpe.html" class="col-md-4">
+        <img
+          src="https://p2.trrsf.com/image/fget/cf/1200/1600/middle/images.terra.com/2023/12/04/gta6-capa-1h7gcqluigx9e.png"
+          class="img-thumbnail" alt="...">
+      </a>
+      <a href="html/desculpe.html" class="col-md-4">
+        <img src="https://m.media-amazon.com/images/I/51-SkCun9-L.jpg" class="img-thumbnail" alt="...">
+      </a>
+      <a href="html/desculpe.html" class="col-md-4" id="darksiders">
+        <img src="https://cdn-products.eneba.com/resized-products/dfnfr4vbf3tbcr6daagw_350x200_1x-0.jpg"
+          class="img-thumbnail" alt="...">
+      </a>
+    </div>
+
+
+
+    <div class="container" style="margin-top: 3%;">
+      <h2 id="font" style="text-align: center;">Clássicos</h2>
+
+    </div>
+    <br>
+
+
+    <a href="html/desculpe.html" style="text-decoration: none;">
+      <div class="jogos">
+        <div class="carta" style="width: 10rem;">
+          <img
+            src="https://static.gamevicio.com/imagens_itens/big/13/the-legend-of-zelda-a-link-to-the-past-cover-012282.webp"
+            class="card-img-top">
+          <div>
+            <p class="card-text">The Legend of Zelda: A Link to the Past</p>
+            <p> R$ 1.200</p>
+          </div>
+        </div>
+
+
+        <div class="carta" style="width: 10rem;">
+          <img
+            src="https://assetsio.reedpopcdn.com/co31c2.jpg?width=1200&height=1200&fit=bounds&quality=70&format=jpg&auto=webp"
+            class="card-img-top">
+          <div>
+            <p class="card-text">Final Fantasy VI
+            </p>
+            <p>R$ 189,99 </p>
+          </div>
+        </div>
+
+
+
+        <div class="carta" style="width: 10rem;">
+          <img src="https://upload.wikimedia.org/wikipedia/pt/6/66/ShadowOfTheColossusGH.jpg" class="card-img-top">
+          <div>
+            <p class="card-text">Shadow of the Colossus ps2
+
+            </p>
+            <p>R$ 340,99 </p>
+          </div>
+        </div>
+
+
+        <div class="carta" style="width: 10rem;">
+          <img src="https://m.media-amazon.com/images/I/71iXh6wFHNL.jpg" class="card-img-top">
+          <div>
+            <p class="card-text">Resident Evil 4</p>
+            <p>R$ 149,00
+            </p>
+          </div>
+        </div>
+
+
+        <div class="carta" style="width: 10rem;">
+          <img src="https://i0.wp.com/farm3.static.flickr.com/2005/2048331217_19fb1bcea9.jpg" class="card-img-top">
+          <div>
+            <p class="card-text">God of War
+            </p>
+            <p>R$ 129,90
+            </p>
+          </div>
+        </div>
+
+        <div class="carta" style="width: 10rem;">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/pt/thumb/d/dd/Crash_Bandicoot_1_capa.png/270px-Crash_Bandicoot_1_capa.png"
+            class="card-img-top">
+          <div>
+            <p class="card-text">Crash Bandicoot
+            </p>
+            <p>R$ 323,90
+            </p>
+          </div>
+        </div>
+
+        <div class="carta" style="width: 10rem;">
+          <img src="https://upload.wikimedia.org/wikipedia/en/1/15/The_Elder_Scrolls_V_Skyrim_cover.png"
+            class="card-img-top">
+          <div>
+            <p class="card-text">The Elder Scrolls V: Skyrim</p>
+            <p>R$ 148,55</p>
+          </div>
+        </div>
+
+        <div class="carta" style="width: 10rem;">
+          <img src="https://upload.wikimedia.org/wikipedia/pt/thumb/6/6d/BioShock_cover.jpg/256px-BioShock_cover.jpg"
+            class="card-img-top">
+          <div>
+            <p class="card-text">BioShock
+            </p>
+            <p>R$ 129,75
+            </p>
+          </div>
+        </div>
+      </div>
+    </a>
+
+    <br>
+
+
+
+    <div class="container" style="margin-top: 3%;">
+      <div class="row">
+        <div class="col-md-6">
+          <a href="html/xbox.html">
+            <img src="img/xboxSaibaMais.png" class="xbox-imagem" alt="Xbox">
+          </a>
+        </div>
+        <div class="col-md-6" id="demo">
+          <a href="html/desculpe.html">
+            <img src="img/demoSaibaMais.png" class="demo-imagem" alt="Xbox">
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" style="margin-top: 3%;">
+      <div class="row">
+        <div class="col-md-6">
+          <a href="html/playstation.html">
+            <img src="img/playSaibaMais.png" class="play-imagem" alt="Xbox">
+          </a>
+        </div>
+        <div class="col-md-6" id="demo">
+          <a href="html/nintendo.html">
+            <img src="img/nintendoSaibaMais.png" class="nintendo-imagem" alt="Xbox">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="container" style="margin-top: 3%;">
+    <h2 id="font" style="text-align: center;">Consoles</h2>
+
+  </div>
+  <br>
+
+
+  <a href="html/desculpe.html" style="text-decoration: none;">
+    <div class="jogos">
+      <div class="carta" style="width: 10rem;">
+        <img
+          src="https://images.tcdn.com.br/img/img_prod/1087887/videogame_nintendo_64_original_na_caixa_4132_1_dde5f6ca8b87e966fd4fff2db9938ea2.jpg"
+          class="card-img-top">
+        <div>
+          <p class="card-text">Nintendo 64</p>
+          <p> R$ 3.400</p>
+        </div>
+      </div>
+
+
+      <div class="carta" style="width: 10rem;">
+        <img
+          src="data:image/jpeg;base64,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"
+          class="card-img-top">
+        <div>
+          <p class="card-text">Nintendo Cube
+          </p>
+          <p>R$ 1899,99 </p>
+        </div>
+      </div>
+
+
+
+      <div class="carta" style="width: 10rem;">
+        <img
+          src="https://photos.enjoei.com.br/playstation-2-fat-edicao-especial-colecao-88442888/800x800/czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy8zMjE5ODA0My9hOTJjMzUzYmU2NGU5NjU3ODFkODIwNmFmNDdhYjBiOS5qcGc"
+          class="card-img-top">
+        <div>
+          <p class="card-text">PlayStation 2
+
+          </p>
+          <p>R$ 640,99 </p>
+        </div>
+      </div>
+
+
+      <div class="carta" style="width: 10rem;">
+        <img src="https://m.media-amazon.com/images/I/71ogaAK8DGL._AC_UF1000,1000_QL80_.jpg" class="card-img-top">
+        <div>
+          <p class="card-text">PlayStation 1</p>
+          <p>R$ 1489,00
+          </p>
+        </div>
+      </div>
+
+
+      <div class="carta" style="width: 10rem;">
+        <img src="https://cdn.awsli.com.br/600x700/226/226243/produto/143467048/5281dabb44.jpg" class="card-img-top">
+        <div>
+          <p class="card-text">Xbox 360
+          </p>
+          <p>R$ 1229,90
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </a>
+
+  <br>
+
+  <footer class="bg-dark text-light">
+    <div class="container-fluid py-3">
+    <div class="row">
+      <div class="col-4">
+        <ul class="nav flex-column">
+          <li class="nav-link"><a href="#">Retornar à Loja</a></li>
+          <li class="nav-link"><a href="#">Sobre</a></li>
+          <li class="nav-link"><a href="#">Contato</a></li>
+          <li class="nav-link"><a href="#">Suporte</a></li>
+        </ul>
+      </div>
+      <div class="col-8">
+        <p>
+          Melhores consoles, jogos e acessorios pelos melhores valores
+        </p>
+        <ul class="nav">
+          <li class="nav-link" ><i class="fab fa-facebook fa-3x "></i></li>
+          <li class="nav-link"><i class="fab fa-instagram fa-3x"></i></li>
+          <li class="nav-link"><i class="fab fa-twitter fa-3x"></i></li>
+          <li class="nav-link"><i class="fab fa-whatsapp fa-3x"></i></li>
+        </ul>
+      </div>
+    </div>
+    </div>
+    <div class="text-center" style="background-color: #333; padding: 20px;" >
+      &copy 2024 Copyright: <a href="#">HideStation</a>
+    </div>
+  </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
